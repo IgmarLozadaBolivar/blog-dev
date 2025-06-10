@@ -1,0 +1,99 @@
+/* Reaktif Font Family */
+@font-face {
+    font-family: 'Reaktif Bold'; /* Bold */
+    src: url('../public/fonts/Reaktif-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reaktif News'; /* News */
+    src: url('../public/fonts/Reaktif-News.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reaktif Semibold'; /* Semibold */
+    src: url('../public/fonts/Reaktif-Semibold.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Cabin Font Family */
+@font-face {
+    font-family: 'Cabin Regular'; /* Regular */
+    src: url('../public/fonts/Cabin-Regular.ttf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cabin Bold'; /* Bold */
+    src: url('../public/fonts/Cabin-Bold.ttf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.encabezado {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: 'Reaktif Semibold', sans-serif;
+    color: #333333;
+}
+
+.navegacion ul {
+    list-style: none;
+    display: flex;
+}
+
+.navegacion ul li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.navegacion ul li a {
+    text-decoration: none;
+    font-family: "Reaktif News", sans-serif;
+    color: #333333;
+}
+
+.saber-mas {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.saber-mas a {
+    font-family: "Cabin Regular", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.pie-pagina {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-family: "Cabin Regular", sans-serif;
+}
