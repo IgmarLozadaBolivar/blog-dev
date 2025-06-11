@@ -175,6 +175,126 @@
     font-family: "Cabin Regular", sans-serif;
 }
 
+.titulo_python{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Reaktif Semibold', sans-serif;
+
+}
+
+.introduccion{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Cabin Regular", sans-serif;
+    width: 90%;
+    margin-left: 60px;
+}
+
+.contenedor{
+    position: relative;
+    background-color: rgb(175, 175, 175);
+    width: 80%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    left:150px ;
+    border-radius: 10px;
+    
+}
+
+.subtitulo{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Reaktif Semibold', sans-serif;
+}
+
+
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;   
+    margin-left: 20%;
+    justify-content: center;
+    font-family: "Cabin Regular", sans-serif;   
+
+    font-family: "Cabin Regular", sans-serif;   
+}
+.caracteristicas h3{
+    margin-top: 10px;
+}
+
+.cont_casos_de_uso{
+    position: relative;
+    background-color: rgb(175, 175, 175);
+    width: 80%;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    left:150px ;
+    border-radius: 10px;
+}
+
+.subtitulo_casos_de_uso{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Reaktif Semibold', sans-serif;
+}
+
+.casos_de_uso{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;   
+    margin-left: 25%;
+    justify-content: center;
+    font-family: "Cabin Regular", sans-serif;
+}
+
+
+.casos_de_uso p{
+    margin-top: 5px;
+}
+
+.titulo_java{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Reaktif Semibold', sans-serif;
+    
+
+}
+
+.contenedor_java{
+    position: relative;
+    background-color: rgb(175, 175, 175);
+    width: 80%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    left:150px ;
+    border-radius: 10px;
+    
+}
+
+.cont_casos_de_uso_java{
+    position: relative;
+    background-color: rgb(175, 175, 175);
+    width: 80%;
+    height: 240px;
+    align-items: center;
+    justify-content: center;
+    left:150px ;
+    border-radius: 10px;
+}
+
 #php-javascript {
     display: flex;
     flex-direction: column;
