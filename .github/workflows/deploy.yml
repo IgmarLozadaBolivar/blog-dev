@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # ✅ Aquí se sube solo el contenido de la carpeta `src`
-          path: 'src'
+          path: './src'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
