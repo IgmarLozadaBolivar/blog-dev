@@ -91,6 +91,44 @@
     text-decoration: none;
 }
 
+#principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+}
+
+.contenido-texto-botones .titulo .parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Reaktif Bold', sans-serif;
+    color: #333333;
+    font-size: 64px;
+}
+
+.parrafo p {
+    font-family: 'Cabin Regular', sans-serif;
+    color: #333333;
+    font-size: 16px;
+}
+
+.grupo-botones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+
+.contenido-img img {
+    width: 100%;
+    height: auto;
+}
+
 .pie-pagina {
     background-color: #f8f9fa;
     padding: 20px;
