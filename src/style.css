@@ -1,6 +1,7 @@
 /* Reaktif Font Family */
 @font-face {
-    font-family: 'Reaktif Bold'; /* Bold */
+    font-family: 'Reaktif Bold';
+    /* Bold */
     src: url('../public/fonts/Reaktif-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
@@ -8,7 +9,8 @@
 }
 
 @font-face {
-    font-family: 'Reaktif News'; /* News */
+    font-family: 'Reaktif News';
+    /* News */
     src: url('../public/fonts/Reaktif-News.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -16,7 +18,8 @@
 }
 
 @font-face {
-    font-family: 'Reaktif Semibold'; /* Semibold */
+    font-family: 'Reaktif Semibold';
+    /* Semibold */
     src: url('../public/fonts/Reaktif-Semibold.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -25,7 +28,8 @@
 
 /* Cabin Font Family */
 @font-face {
-    font-family: 'Cabin Regular'; /* Regular */
+    font-family: 'Cabin Regular';
+    /* Regular */
     src: url('../public/fonts/Cabin-Regular.ttf') format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -33,7 +37,8 @@
 }
 
 @font-face {
-    font-family: 'Cabin Bold'; /* Bold */
+    font-family: 'Cabin Bold';
+    /* Bold */
     src: url('../public/fonts/Cabin-Bold.ttf') format('woff2');
     font-weight: 700;
     font-style: normal;
@@ -91,129 +96,81 @@
     text-decoration: none;
 }
 
+#principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+}
+
+.contenido-texto-botones .titulo .parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Reaktif Bold', sans-serif;
+    color: #333333;
+    font-size: 64px;
+    padding-bottom: 20px;
+}
+
+.parrafo p {
+    font-family: 'Cabin Regular', sans-serif;
+    color: #333333;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.grupo-botones {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 40%;
+}
+
+.boton-primario {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Cabin Regular", sans-serif;
+    cursor: pointer;
+}
+
+.boton-primario a {
+    color: white;
+    text-decoration: none;
+}
+
+.boton-secundario {
+    background-color: #5e00ff;
+    color: white;
+    padding: 15px;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "Cabin Regular", sans-serif;
+    cursor: pointer;
+}
+
+.boton-secundario a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenido-img img {
+    width: 100%;
+    height: auto;
+}
+
 .pie-pagina {
     background-color: #f8f9fa;
     padding: 20px;
     text-align: center;
     font-family: "Cabin Regular", sans-serif;
-}
-
-.titulo_python{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Reaktif Semibold', sans-serif;
-
-}
-
-.introduccion{
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Cabin Regular", sans-serif;
-    width: 90%;
-    margin-left: 60px;
-}
-
-.contenedor{
-    position: relative;
-    background-color: rgb(175, 175, 175);
-    width: 80%;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    left:150px ;
-    border-radius: 10px;
-    
-}
-
-.subtitulo{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Reaktif Semibold', sans-serif;
-}
-
-
-.caracteristicas{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;   
-    margin-left: 20%;
-    justify-content: center;
-    font-family: "Cabin Regular", sans-serif;   
-
-    font-family: "Cabin Regular", sans-serif;   
-}
-.caracteristicas h3{
-    margin-top: 10px;
-}
-
-.cont_casos_de_uso{
-    position: relative;
-    background-color: rgb(175, 175, 175);
-    width: 80%;
-    height: 240px;
-    align-items: center;
-    justify-content: center;
-    left:150px ;
-    border-radius: 10px;
-}
-
-.subtitulo_casos_de_uso{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Reaktif Semibold', sans-serif;
-}
-
-.casos_de_uso{
-    display: flex;
-    flex-direction: column;
-    margin-top: 25px;   
-    margin-left: 25%;
-    justify-content: center;
-    font-family: "Cabin Regular", sans-serif;
-}
-
-
-.casos_de_uso p{
-    margin-top: 5px;
-}
-
-.titulo_java{
-    margin-top: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Reaktif Semibold', sans-serif;
-    
-
-}
-
-.contenedor_java{
-    position: relative;
-    background-color: rgb(175, 175, 175);
-    width: 80%;
-    height: 250px;
-    align-items: center;
-    justify-content: center;
-    left:150px ;
-    border-radius: 10px;
-    
-}
-
-.cont_casos_de_uso_java{
-    position: relative;
-    background-color: rgb(175, 175, 175);
-    width: 80%;
-    height: 240px;
-    align-items: center;
-    justify-content: center;
-    left:150px ;
-    border-radius: 10px;
 }
